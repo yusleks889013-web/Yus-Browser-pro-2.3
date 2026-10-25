@@ -1,0 +1,3 @@
+Yus Browser Pro 2.3
+Clean rebuild package
+Windowed standalone build supported

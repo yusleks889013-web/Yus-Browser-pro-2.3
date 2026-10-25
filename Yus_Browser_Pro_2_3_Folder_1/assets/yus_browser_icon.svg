@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B77BFF"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#35105F"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#3B1B60"/>
+      <stop offset="1" stop-color="#1B0D2A"/>
+    </linearGradient>
+    <linearGradient id="topbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F2E7FF"/>
+      <stop offset="1" stop-color="#CDB0FF"/>
+    </linearGradient>
+  </defs>
+  <!-- App tile: unmistakably a browser window, not an AI emblem -->
+  <rect x="12" y="12" width="488" height="488" rx="112" fill="url(#bg)"/>
+  <rect x="72" y="86" width="368" height="340" rx="39" fill="#1B0E2A" opacity="0.26"/>
+  <rect x="62" y="72" width="368" height="340" rx="36" fill="url(#page)" stroke="#F3E9FF" stroke-width="13"/>
+  <path d="M98 72 H394 A36 36 0 0 1 430 108 V149 H62 V108 A36 36 0 0 1 98 72Z" fill="url(#topbar)"/>
+  <path d="M62 149 H430" stroke="#F5EFFF" stroke-width="9" opacity="0.96"/>
+  <circle cx="101" cy="111" r="10" fill="#7B35C7"/>
+  <circle cx="132" cy="111" r="10" fill="#9560D7"/>
+  <circle cx="163" cy="111" r="10" fill="#B88AEC"/>
+  <!-- simple tab strip -->
+  <path d="M205 72 H328 Q344 72 344 88 V103 H191 V88 Q191 72 205 72Z" fill="#FFFFFF" opacity="0.78"/>
+  <!-- Bold Y brand mark in the page area -->
+  <path d="M178 211 L226 271 L274 211" fill="none" stroke="#E9D9FF" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M226 268 V333" fill="none" stroke="#E9D9FF" stroke-width="27" stroke-linecap="round"/>
+  <!-- small page fold to imply documents/web pages -->
+  <path d="M370 323 V365 H329" fill="none" stroke="#A979F0" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
